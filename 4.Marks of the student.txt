@@ -1,0 +1,26 @@
+#Write a program to calculate the grade. The grade should be calculated in the following method.
+
+#Constraints
+#Score should be in between 1 to 100
+
+#Score
+	#>= 90	 --> Grade O
+	#>= 80	--> Grade A+
+	#>= 70	--> Grade A
+	#>= 60	--> Grade B+
+	#>= 50	--> Grade B
+	#< 50	No Grade
+
+score=int(input("Enter the score :"))
+if(score>=90 and score<=100):
+    print("Grade 0")
+elif(score>=80 and score<=100):
+    print("Grade A+")
+elif(score>=70 and score<=100):
+    print("Grade A")
+elif(score>=60 and score<=100):
+    print("Grade B+")
+elif(score>=50 and score<=100):
+    print("Grade B")
+elif(score<50 and score>=1):
+    print("No Grade")
